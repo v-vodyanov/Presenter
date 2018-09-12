@@ -1,5 +1,6 @@
 {
     "name": "laracasts/presenter",
+    "version": "0.2.2",
     "description": "Simple view presenters",
     "keywords": [
         "presenter",
