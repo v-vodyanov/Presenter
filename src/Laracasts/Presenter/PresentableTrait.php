@@ -26,7 +26,7 @@ trait PresentableTrait {
 
 		if ( ! $this->presenterInstance)
 		{
-            $this->presenterInstance = app($this->presenter, [ 'entity' => $this ]);
+			$this->presenterInstance = app($this->presenter, [ 'entity' => $this ]);
 		}
 
 		return $this->presenterInstance;
